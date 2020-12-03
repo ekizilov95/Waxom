@@ -1,0 +1,148 @@
+.presentation {
+  padding-top: 67px;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    padding-left: 47px;
+
+    @media (max-width: 992px) {
+      padding: 0;
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__image {
+    max-width: 423px;
+    opacity: 0;
+    transition: all 3s ease 0s;
+
+    img {
+      max-width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__image._anim-active {
+    opacity: 1;
+  }
+
+  &__content {
+    text-align: left;
+    flex: 1 1 auto;
+    max-width: 660px;
+    margin-top: -47px;
+    transform: translateX(200%);
+    transition: transform 1s ease 0s;
+
+    @media (max-width: 992px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__content._anim-active {
+    transform: translateX(0);
+  }
+
+  &__title {
+    margin-bottom: 30px;
+
+    h3 {
+      color: $color-emperor;
+    }
+  }
+
+  &__descr {
+    margin-bottom: 33px;
+
+    @media (max-width: 776px) {
+      margin: 15px;
+    }
+
+    p {
+      color: $color-gray;
+    }
+  }
+
+  &__list {
+    margin-left: 57px;
+
+    @media (max-width: 776px) {
+      margin: 0;
+    }
+  }
+
+  &__item {
+    line-height: 29px;
+    color: $color-gray;
+    background: url('../img/sprite.svg#arrow-right') left / 21px no-repeat;
+    padding-left: 40px;
+
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+  }
+
+  &__footer {}
+}
+
+.presentation-counter {
+  padding: 69px 0 55px;
+  background: linear-gradient(to right, #211b19, #4e3427);
+
+  @media (max-width: 992px) {
+    padding: 30px 0;
+  }
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -34px;
+  }
+
+  &__item {
+    position: relative;
+    padding: 0 34px 27px;
+    text-align: center;
+
+    @media (max-width: 992px) {
+      padding: 15px 15px;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 30px;
+      height: 2px;
+      background: $color-white;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__icon {
+    margin-bottom: 25px;
+    height: 44px;
+    max-width: 44px;
+    fill: $color-rodeo;
+  }
+
+  &__count {
+    margin-bottom: 15px;
+    min-width: 130px;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 0.75;
+    text-transform: uppercase;
+    color: $color-white;
+
+  }
+
+  &__subtitle {
+    font-size: 14px;
+    line-height: 1.43;
+    color: $color-rodeo;
+  }
+}

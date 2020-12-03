@@ -1,0 +1,31 @@
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "vendor";
+
+// modules //
+@import "header";
+@import "intro";
+@import "skills";
+@import "browsers";
+@import "portfolio";
+@import "modal";
+@import "video";
+@import "presentation";
+@import "last-progects";
+@import "logos";
+@import "conclusion";
+@import "footer";
+
+// CUSTOM COMPONENTS STYLES
+.burger {
+  @include burger;
+
+  display: none;
+
+  @media(max-width: 992px) {
+    display: block;
+    position: relative;
+    z-index: 3;
+  }
+}

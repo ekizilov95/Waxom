@@ -1,0 +1,152 @@
+.header {
+  position: fixed;
+  left: 0;
+  z-index: 50;
+  padding: 20px 0;
+  width: 100%;
+  transition: all 0.3s ease 0s;
+
+  @media (max-width: 992px) {
+    padding: 20px 0;
+  }
+  @media (max-width: 776px) {
+    padding: 10px 0;
+  }
+
+  &_scroll {
+    background: rgba(85, 85, 85, 0.685);
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    @media (max-width: 992px) {
+      position: relative;
+      z-index: 3;
+    }
+  }
+
+  &__menu {
+    margin-left: 14%;
+
+    @media (max-width: 1200px) {
+      margin: 0;
+    }
+
+    @media (max-width: 992px) {
+      padding: 120px;
+    }
+  }
+
+  &__search {
+    margin-left: 28px;
+  }
+
+}
+
+.logo {
+  flex: 0 0 181px;
+
+  &__img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  @media (max-width: 776px) {
+    flex: 0 0 120px;
+  }
+}
+
+.menu {
+
+  @media (max-width: 992px) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.836);
+    transform: translateY(-100%);
+
+    &_active {
+      transform: translateY(0);
+      transition: transform 0.8s ease 0s;
+    }
+  }
+
+  &__list {
+    display: flex;
+
+    @media (max-width: 992px) {
+      display: block;
+    }
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 28px;
+
+      @media (max-width: 992px) {
+        margin: 0 auto 30px; 
+        font-size: 20px;
+      }
+    }
+  }
+
+  &__link {
+    font-size: 14px;
+    color: $color-white;
+    transition: 0.5s all;
+
+    &:hover {
+      color: $color-rodeo;
+    }
+  }
+}
+
+.actions-item {
+  display: flex;
+  position: relative;
+  &__img {
+    width: 19px;
+    height: 25px;
+    line-height: 24px;
+    fill: $color-white;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+
+    &:hover {
+      fill: $color-rodeo;
+    }
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &__input {
+    position: absolute;
+    right: 30px;
+    bottom: -40px;
+    padding: 3px;
+    width: 0;
+    height: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.8s ease 0s;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+  }
+}
+.show-input {
+  width: 150%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.hidden {
+  overflow: hidden;
+}

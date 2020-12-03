@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#111111">
+	<title>Waxom</title>
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<div class="site-container">
+		@include('html/header.html')
+		<main class="main">
+			@include('html/intro.html')
+			@include('html/skills.html')
+			@include('html/browsers.html')
+			@include('html/portfolio.html')
+			@include('html/video.html')
+			@include('html/presentation.html')
+			@include('html/last-projects.html')
+			@include('html/logos.html')
+			@include('html/conclusion.html')
+		</main>
+		@include('html/footer.html')
+	</div>
+	@include('html/modal.html')
+	<script src="js/main.js"></script>
+</body>
+</html>

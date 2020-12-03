@@ -1,0 +1,156 @@
+.last-projects {
+  padding: 80px 0 72px;
+
+  @media (max-width: 776px) {
+    padding: 30px;
+  }
+  &__inner {
+    position: relative;
+  }
+
+  &__header {
+    margin-bottom: 44px;
+  }
+
+  &__item {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 370px;
+  }
+
+  &__image {
+    height: 220px;
+    max-width: 370px;
+    position: relative;
+    &:after,
+    &:before {
+      display: none;
+    }
+
+  }
+
+  &__slide {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__pagination {
+    padding-bottom: 5px;
+  }
+
+  &__bottom {
+    background: #f8f8f8;
+  }
+
+  &__title {
+    margin-bottom: 19px;
+
+    h5 {
+      color: $color-emperor;
+    }
+  }
+
+  &__descr {
+    margin-bottom: 27px;
+
+    p {
+      line-height: 1.57;
+      color: $color-gray;
+    }
+  }
+
+  &__link {
+    color: $color-rodeo;
+  }
+
+  &__outher-slider {
+    margin-bottom: 50px;
+  }
+
+  &__outher-controls {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  &__button-next {
+    right: 0;
+  }
+
+  &__button-prev {
+    left: 0;
+  }
+
+  &__button-next,
+  &__button-prev {
+    position: relative;
+    opacity: 0.4;
+    transition: opacity 0.8s ease 0s;
+
+    &:after {
+      border: 2px solid $color-rodeo;
+      border-radius: 100%;
+      padding: 3px 6px;
+      font-size: 15px !important;
+      color: $color-rodeo;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__date {
+    position: absolute;
+    left: 20px;
+    top: 19px;
+    z-index: 5;
+    text-align: center;
+    color: $color-white;
+
+    &_active {
+      .last-projects__day {
+        background: $color-rodeo;
+      }
+
+      .last-projects__month {
+        background: #a48d72;
+      }
+    }
+  }
+
+  &__day {
+    border-radius: 3px 3px 0 0;
+    padding: 10px;
+    font-size: 24px;
+    line-height: 0.83;
+    text-align: center;
+    background-color: #363636;
+
+  }
+
+  &__month {
+    border-radius: 0 0 3px 3px;
+    padding: 7px 13px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    background-color: #252525;
+  }
+}
+
+.link {
+  position: relative;
+  padding-right: 20px;
+  color: $color-rodeo;
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    border: 5px solid transparent;
+    border-left: 5px solid $color-rodeo;
+    transform: translateY(-46%);
+  }
+}

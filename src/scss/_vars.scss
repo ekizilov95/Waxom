@@ -1,0 +1,43 @@
+// COLORS
+$color-white: #fff;
+$color-black: #000;
+$color-rodeo: #c7b299;
+$color-emperor: #555;
+$color-gray: #8c8c8c;
+$color-alto: #d1d1d1;
+$color-shaft: #363636;
+// FONT DEFAULT //
+$ff: "Montserrat",
+sans-serif !important;
+$mw: 1200px;
+$fw: 300;
+$fz: 16px;
+// 
+$ff-raleway: "Raleway",
+sans-serif !important;
+
+// MAIN CONTAINER //
+.site-container {
+  overflow: hidden;
+  min-width: 100%;
+}
+
+// CONTAINER //
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: $mw;
+
+  @media (max-width: 1200px) {
+    max-width: 970px;
+  }
+
+  @media (max-width: 992px) {
+    max-width: 750px;
+  }
+
+  @media (max-width: 767px) {
+    max-width: none;
+  }
+
+}
