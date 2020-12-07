@@ -1,768 +1,780 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="theme-color" content="#111111">
-	<title>Waxom</title>
-	<link rel="stylesheet" href="css/main.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Waxom</title>
+  <link rel="stylesheet" href="css/main.min.css">
 </head>
+
 <body>
-	<div class="site-container">
-		<header class="header">
-  <div class="container">
-    <div class="header__row">
-      <div class="header__logo logo">
-        <a href="#"><img src="img/logo.png" class="header__img logo__img" alt="logo"></a>
+  <div class="site-container">
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <div class="header__logo logo">
+            <a href="#"><img src="img/logo.png" class="header__img logo__img" alt="logo"></a>
+          </div>
+          <div class="header__burder burger">
+            <span class="burger__line"></span>
+          </div>
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
+              <li class="menu__item"><a href="#about" class="menu__link">About Us</a></li>
+              <li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
+              <li class="menu__item"><a href="#features" class="menu__link">Features</a></li>
+              <li class="menu__item"><a href="#blog" class="menu__link">Blog</a></li>
+              <li class="menu__item"><a href="#pricing" class="menu__link">Pricing</a></li>
+              <li class="menu__item"><a href="#shortcodes" class="menu__link">Shortcodes</a></li>
+              <li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
+            </ul>
+          </nav>
+          <div class="header__actions actions-item">
+            <svg class="actions-item__img">
+              <use xlink:href='img/sprite.svg#headericon1'></use>
+            </svg>
+            <svg class="actions-item__img" id='search'>
+              <use xlink:href='img/sprite.svg#headericon2'></use>
+            </svg>
+            <input type="text" class="actions-item__input" placeholder="Search">
+          </div>
+        </div>
       </div>
-      <div class="header__burder burger">
-        <span class="burger__line"></span>
-      </div>
-      <nav class="header__menu menu">
-        <ul class="menu__list">
-          <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
-          <li class="menu__item"><a href="#about" class="menu__link">About Us</a></li>
-          <li class="menu__item"><a href="#portfolio"class="menu__link">Portfolio</a></li>
-          <li class="menu__item"><a href="#features" class="menu__link">Features</a></li>
-          <li class="menu__item"><a href="#blog" class="menu__link">Blog</a></li>
-          <li class="menu__item"><a href="#pricing" class="menu__link">Pricing</a></li>
-          <li class="menu__item"><a href="#shortcodes" class="menu__link">Shortcodes</a></li>
-          <li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
-        </ul>
-      </nav>
-      <div class="header__actions actions-item">    
-          <svg class="actions-item__img">
-            <use xlink:href='img/sprite.svg#headericon1'></use>
-          </svg>      
-          <svg class="actions-item__img" id='search'>
-            <use xlink:href='img/sprite.svg#headericon2'></use>
-          </svg>  
-          <input type="text" class="actions-item__input" placeholder="Search">
-      </div>
-    </div>
-  </div>
-</header>
+    </header>
 
-		<main class="main">
-			<section class="intro" id='home'>
-  <div class="intro__inner swiper-container">
-    <div class="intro__slider swiper-wrapper">
-      <div class="intro__slide swiper-slide">
-        <img src="img/inner-bg.jpg" class="swiper-slide__bg" alt="logo">
-        <div class="intro__slide-content">
-          <div class="intro__slide-subtitle">
-            Unique and Modern Design
+    <main class="main">
+      <section class="intro" id='home'>
+        <div class="intro__inner swiper-container">
+          <div class="intro__slider swiper-wrapper">
+            <div class="intro__slide swiper-slide">
+              <img src="img/inner-bg.jpg" class="swiper-slide__bg" alt="logo">
+              <div class="intro__slide-content">
+                <div class="intro__slide-subtitle">
+                  Unique and Modern Design
+                </div>
+                <div class="intro__slide-title">
+                  <h1>Portfolio PSD Template</h1>
+                </div>
+                <div class="intro__slide-descr">
+                  <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim
+                    placerat
+                    facer possim assum.</p>
+                </div>
+                <a href="#" class="intro__slide-button btn">Get Started</a>
+              </div>
+            </div>
+            <div class="intro__slide swiper-slide">
+              <img src="img/inner-bg2.jpg" class="swiper-slide__bg" alt="">
+              <div class="intro__slide-content">
+                <div class="intro__slide-subtitle">
+                  Unique and Modern Design
+                </div>
+                <div class="intro__slide-title">
+                  <h1>Portfolio PSD Template</h1>
+                </div>
+                <div class="intro__slide-descr">
+                  <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim
+                    placerat
+                    facer possim assum.</p>
+                </div>
+                <a href="#" class="intro__slide-button btn">Get Started</a>
+              </div>
+            </div>
+            <div class="intro__slide swiper-slide">
+              <img src="img/inner-bg3.jpg" class="swiper-slide__bg" alt="">
+              <div class="intro__slide-content">
+                <div class="intro__slide-subtitle">
+                  Unique and Modern Design
+                </div>
+                <div class="intro__slide-title">
+                  <h1>Portfolio PSD Template</h1>
+                </div>
+                <div class="intro__slide-descr">
+                  <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim
+                    placerat
+                    facer possim assum.</p>
+                </div>
+                <a href="#" class="intro__slide-button btn">Get Started</a>
+              </div>
+            </div>
           </div>
-          <div class="intro__slide-title">
-            <h1>Portfolio PSD Template</h1>
-          </div>
-          <div class="intro__slide-descr">
-            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
-              facer possim assum.</p>
-          </div>
-          <a href="#" class="intro__slide-button btn">Get Started</a>
+          <div class="intro__button-prev swiper-button-prev"></div>
+          <div class="intro__button-next swiper-button-next"></div>
+          <div class="intro__pagination swiper-pagination"></div>
         </div>
-      </div>
-      <div class="intro__slide swiper-slide">
-        <img src="img/inner-bg2.jpg" class="swiper-slide__bg" alt="">
-        <div class="intro__slide-content">
-          <div class="intro__slide-subtitle">
-            Unique and Modern Design
-          </div>
-          <div class="intro__slide-title">
-            <h1>Portfolio PSD Template</h1>
-          </div>
-          <div class="intro__slide-descr">
-            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
-              facer possim assum.</p>
-          </div>
-          <a href="#" class="intro__slide-button btn">Get Started</a>
-        </div>
-      </div>
-      <div class="intro__slide swiper-slide">
-        <img src="img/inner-bg3.jpg" class="swiper-slide__bg" alt="">
-        <div class="intro__slide-content">
-          <div class="intro__slide-subtitle">
-            Unique and Modern Design
-          </div>
-          <div class="intro__slide-title">
-            <h1>Portfolio PSD Template</h1>
-          </div>
-          <div class="intro__slide-descr">
-            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
-              facer possim assum.</p>
-          </div>
-          <a href="#" class="intro__slide-button btn">Get Started</a>
-        </div>
-      </div>
-    </div>
-    <div class="intro__button-prev swiper-button-prev"></div>
-    <div class="intro__button-next swiper-button-next"></div>
-    <div class="intro__pagination swiper-pagination"></div>
-  </div>
-</section>
+      </section>
 
-			<section class="skills">
-  <div class="container">
-    <div class="skills__row">
-      <div class="skills__column">
-        <div class="skills__image _anim-items">
-            <svg class="skills__img">
-                <use xlink:href='img/sprite.svg#skill-icon1'  class="skills__img"></use>
-            </svg>
+      <section class="skills">
+        <div class="container">
+          <div class="skills__row">
+            <div class="skills__column">
+              <div class="skills__image _anim-items">
+                <svg class="skills__img">
+                  <use xlink:href='img/sprite.svg#skill-icon1' class="skills__img"></use>
+                </svg>
+              </div>
+              <div class="skills__title">
+                <h2>Web & App Design</h2>
+              </div>
+              <div class="skills__text">
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+              </div>
+            </div>
+            <div class="skills__column skills__column_active">
+              <div class="skills__image _anim-items">
+                <svg class="skills__img">
+                  <use xlink:href='img/sprite.svg#skill-icon2'></use>
+                </svg>
+              </div>
+              <div class="skills__title">
+                <h2>Development</h2>
+              </div>
+              <div class="skills__text">
+                <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+              </div>
+            </div>
+            <div class="skills__column">
+              <div class="skills__image _anim-items">
+                <svg class='skills__img'>
+                  <use xlink:href='img/sprite.svg#skill-icon3'></use>
+                </svg>
+              </div>
+              <div class="skills__title">
+                <h2>Customization</h2>
+              </div>
+              <div class="skills__text">
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+              </div>
+            </div>
+            <div class="skills__column">
+              <div class="skills__image _anim-items">
+                <svg class='skills__img'>
+                  <use xlink:href='img/sprite.svg#skill-icon4'></use>
+                </svg>
+              </div>
+              <div class="skills__title">
+                <h2>Marketing</h2>
+              </div>
+              <div class="skills__text">
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="skills__title">
-          <h2>Web & App Design</h2>
-        </div>
-        <div class="skills__text">
-          <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-        </div>
-      </div>
-      <div class="skills__column skills__column_active">
-        <div class="skills__image _anim-items">
-            <svg class="skills__img">
-                <use xlink:href='img/sprite.svg#skill-icon2'></use>
-            </svg>
-        </div>
-        <div class="skills__title">
-          <h2>Development</h2>
-        </div>
-        <div class="skills__text">
-          <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-        </div>
-      </div>
-      <div class="skills__column">
-        <div class="skills__image _anim-items">
-            <svg class='skills__img'>
-                <use xlink:href='img/sprite.svg#skill-icon3'></use>
-            </svg>
-        </div>
-        <div class="skills__title">
-          <h2>Customization</h2>
-        </div>
-        <div class="skills__text">
-          <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-        </div>
-      </div>
-      <div class="skills__column">
-        <div class="skills__image _anim-items">
-            <svg class='skills__img'>
-                <use xlink:href='img/sprite.svg#skill-icon4'></use>
-            </svg>
-        </div>
-        <div class="skills__title">
-          <h2>Marketing</h2>
-        </div>
-        <div class="skills__text">
-          <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
-			<section class="browsers">
-  <div class="container">
-      <div class="browsers__inner">
-        <div class="browsers__header titles__body">
-          <div class="browsers__title titles__title">
-            <h3>Waxom is Realization of your Ideas.</h3>
-          </div>
-          <div class="browsers__descr titles__descr">
-            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus
-              dynamicus, qui sequitur mutationem consuetudium.</p>
-          </div>
-        </div>
-        <div class="browsers__slider">
-          <div class="browsers__carousel carousel swiper-container">
-              <div class="carousel__wrapper swiper-wrapper">
-                <div class="carousel__item swiper-slide _anim-items _anim-no-hide">
+      <section class="browsers">
+        <div class="container">
+          <div class="browsers__inner">
+            <div class="browsers__header titles__body">
+              <div class="browsers__title titles__title">
+                <h3>Waxom is Realization of your Ideas.</h3>
+              </div>
+              <div class="browsers__descr titles__descr">
+                <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+                  processus
+                  dynamicus, qui sequitur mutationem consuetudium.</p>
+              </div>
+            </div>
+            <div class="browsers__slider">
+              <div class="browsers__carousel carousel swiper-container">
+                <div class="carousel__wrapper swiper-wrapper">
+                  <div class="carousel__item swiper-slide _anim-items _anim-no-hide">
                     <img src="img/browser-left.jpg" class="carousel__img" alt="browser">
-                </div>
-                <div class="carousel__item swiper-slide _anim-items _anim-no-hide">
+                  </div>
+                  <div class="carousel__item swiper-slide _anim-items _anim-no-hide">
                     <img src="img/browser-center.jpg" class="carousel__img" alt="browser">
-                </div>
-                <div class="carousel__item swiper-slide _anim-items _anim-no-hide">
+                  </div>
+                  <div class="carousel__item swiper-slide _anim-items _anim-no-hide">
                     <img src="img/browser-right.jpg" class="carousel__img" alt="browser">
-                </div>
-              </div>
-            </div>
-            <div class="carousel__pagination swiper-pagination"></div>
-        </div>
-      </div>
-  </div>
-  <div class="browsers__footer">
-    <div class="browsers__footer-row">
-        <div class="browsers__footer-title">
-            <h4><span>Waxom</span> Multipurpose WordPress Theme</h4>
-        </div>
-        <div class="browsers__footer-subtitle">
-            Don't Forget to Rate the Template. Thanks so much!
-        </div>
-    </div>
-    <div class="browsers__footer-btn btn">Purchase Now</div>
-  </div>
-</section>
-
-			<section class="portfolio" id="portfolio">
-  <div class="container">
-    <div class="potrfolio__inner">
-      <div class="potrfolio__header titles__body">
-        <div class="potrfolio__title titles__title">
-          <h3>Our Latest Projects.</h3>
-        </div>
-        <div class="potrfolio__descr titles__descr">
-          <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
-            processus dynamicus, qui sequitur mutationem consuetudium.</p>
-        </div>
-      </div>
-      <div class="potrfolio__breadcrumbs breadcrumbs">
-        <ul class="breadcrumbs__list">
-          <li class="breadcrumbs__item breadcrumbs__item_active" id="all">All</li>
-          <li class="breadcrumbs__item" id="web-design">Web Design</li>
-          <li class="breadcrumbs__item" id="mobile-app">Mobile App</li>
-          <li class="breadcrumbs__item" id="illustration">Illustration</li>
-          <li class="breadcrumbs__item" id="photography">Photography</li>
-        </ul>
-      </div>
-      <div class="potrfolio__grid grid-portfolio">
-        <div class="grid-portfolio__inner">
-          <div class="grid-portfolio__item carts__item" data-progect="mobile-app">            
-            <div class="grid-portfolio__image carts__image">
-              <img src="img/portfolio1.jpg" class="grid-portfolio__img carts__img" alt="project">
-              <div class="grid-portfolio__icons">
-                  <svg class="grid-portfolio__icon">
-                    <use xlink:href='img/sprite.svg#link'></use>
-                  </svg>
-                  <svg data-src="img/portfolio1@3x.jpg" class="grid-portfolio__icon" id="lupa">
-                    <use xlink:href='img/sprite.svg#lupa'></use>
-                  </svg>
-              </div>
-            </div>
-            <div class="grid-portfolio__bottom carts__bottom">
-              <div class="grid-portfolio__title carts__title">
-                <h5>Claritas Etiam Processus</h5>
-              </div>
-              <div class="grid-portfolio__subtitle carts__subtitle">
-                Photography, Nature
-              </div>
-            </div>
-          </div>
-          <div class="grid-portfolio__item carts__item_active" data-progect="photography">
-            <div class="grid-portfolio__image carts__image">
-              <img src="img/portfolio2.jpg" class="grid-portfolio__img carts__img" alt="project">
-              <div class="grid-portfolio__icons">
-                  <svg class="grid-portfolio__icon grid-portfolio__icon_active">
-                    <use xlink:href='img/sprite.svg#link'></use>
-                  </svg>
-                  <svg data-src="img/portfolio2@3x.jpg" class="grid-portfolio__icon" id="lupa">
-                    <use xlink:href='img/sprite.svg#lupa'></use>
-                  </svg>
-              </div>
-            </div>
-            <div class="grid-portfolio__bottom carts__bottom">
-              <div class="grid-portfolio__title carts__title">
-                <h5>Quam Nutamus Farum</h5>
-              </div>
-              <div class="grid-portfolio__subtitle carts__subtitle">
-                Graphic Design, Mock-Up
-              </div>
-            </div>
-          </div>
-          <div class="grid-portfolio__item carts__item" data-progect="web-design">
-            <div class="grid-portfolio__image carts__image">
-             <img src="img/portfolio3.jpg" class="grid-portfolio__img carts__img" alt="project">
-              <div class="grid-portfolio__icons">
-                <svg class="grid-portfolio__icon">
-                  <use xlink:href='img/sprite.svg#link'></use>
-                </svg>
-                <svg data-src="img/portfolio3@3x.jpg" class="grid-portfolio__icon" id="lupa">
-                  <use xlink:href='img/sprite.svg#lupa'></use>
-                </svg>
-            </div>
-            </div>
-            <div class="grid-portfolio__bottom carts__bottom">
-              <div class="grid-portfolio__title carts__title">
-                <h5>Usus Legentis Videntur</h5>
-              </div>
-              <div class="grid-portfolio__subtitle carts__subtitle">
-                Photography, Holiday
-              </div>
-            </div>
-          </div>
-          <div class="grid-portfolio__item carts__item" data-progect="photography">
-            <div class="grid-portfolio__image carts__image">
-              <img src="img/portfolio4.jpg" class="grid-portfolio__img carts__img" alt="project">
-              <div class="grid-portfolio__icons">
-                  <svg class="grid-portfolio__icon">
-                    <use xlink:href='img/sprite.svg#link'></use>
-                  </svg>
-                  <svg data-src="img/portfolio4@3x.jpg" class="grid-portfolio__icon" id="lupa">
-                    <use xlink:href='img/sprite.svg#lupa'></use>
-                  </svg>
-              </div>
-            </div>
-            <div class="grid-portfolio__bottom carts__bottom">
-              <div class="grid-portfolio__title carts__title">
-                <h5>Claritas Etiam Processus</h5>
-              </div>
-              <div class="grid-portfolio__subtitle carts__subtitle">
-                Photography, Nature
-              </div>
-            </div>
-          </div>
-          <div class="grid-portfolio__item carts__item" data-progect="illustration">
-            <div  class="grid-portfolio__image carts__image">
-              <img src="img/portfolio5.jpg" class="grid-portfolio__img carts__img" alt="project">
-              <div class="grid-portfolio__icons">
-                <svg class="grid-portfolio__icon">
-                  <use xlink:href='img/sprite.svg#link'></use>
-                </svg>
-                <svg data-src="img/portfolio5@3x.jpg" class="grid-portfolio__icon" id="lupa">
-                  <use xlink:href='img/sprite.svg#lupa'></use>
-                </svg>
-            </div>
-            </div>
-            <div class="grid-portfolio__bottom carts__bottom">
-              <div class="grid-portfolio__title carts__title">
-                <h5>Quam Nutamus Farum</h5>
-              </div>
-              <div class="grid-portfolio__subtitle carts__subtitle">
-                Graphic Design, Mock-Up
-              </div>
-            </div>
-          </div>
-          <div class="grid-portfolio__item carts__item" data-progect="photography">
-            <div class="grid-portfolio__image carts__image">
-              <img src="img/portfolio6.jpg" class="grid-portfolio__img carts__img" alt="project">
-              <div class="grid-portfolio__icons">
-                <svg class="grid-portfolio__icon">
-                  <use xlink:href='img/sprite.svg#link'></use>
-                </svg>
-                <svg data-src="img/portfolio6@3x.jpg" class="grid-portfolio__icon" id="lupa">
-                  <use xlink:href='img/sprite.svg#lupa'></use>
-                </svg>
-            </div>
-            </div>
-            <div class="grid-portfolio__bottom carts__bottom">
-              <div class="grid-portfolio__title carts__title">
-                <h5>Usus Legentis Videntur</h5>
-              </div>
-              <div class="grid-portfolio__subtitle carts__subtitle">
-                Photography, Holiday
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="potrfolio__button btn">Load More</div>
-    </div>
-</section>
-
-			<section class="video" id='about'>
-  <div class="video__inner">
-    <video poster="img/video-img.jpg" class="video__outher">
-      <source src="../video/IMG_2852.mp4">
-    </video>
-    <div class="video__play">
-      <svg class="video__btn-play">
-        <use xlink:href='img/sprite.svg#icon-play'></use>
-      </svg>
-    </div>
-    <div class="video__content titles__body">
-      <div class="video__title titles__title">
-        <h3>Waxom Video Presentation</h3>
-      </div>
-      <div class="video__descr titles__descr">
-        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem
-          consuetudium.</p>
-      </div>
-      <div class="video__timer">03:26</div>
-    </div>
-  </div>
-
-</section>
-
-			<section class="presentation" id="features">
-  <div class="container">
-    <div class="presentation__inner">
-      <div class="presentation__top">
-        <div class="presentation__image _anim-items _anim-no-hide">
-          <img src="img/i-phone.jpg" alt="iphone">
-        </div>
-        <div class="presentation__content titles__body _anim-items _anim-no-hide">
-          <div class="presentation__title titles__title">
-            <h3>Excellent for Mobile Devices.</h3>
-          </div>
-          <div class="presentation__descr titles__descr">
-            <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
-              ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius
-              claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-          </div>
-          <ul class="presentation__list">
-            <li class="presentation__item">Nam liber tempor cum soluta nobis eleifend option;</li>
-            <li class="presentation__item">Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
-            <li class="presentation__item">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
-            <li class="presentation__item">Investigationes demonstraverunt lectores</li>
-          </ul>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  <div class="presentation__footer presentation-counter">
-        <div class="presentation-counter__inner">
-          <div class="presentation-counter__item">
-            <svg class="presentation-counter__icon">
-              <use xlink:href='img/sprite.svg#statistics-icon1'></use>
-            </svg>
-            <div class="presentation-counter__count" id="clients">
-              0
-            </div>
-            <div class="presentation-counter__subtitle">
-              Satisfied Clients
-            </div>
-          </div>
-          <div class="presentation-counter__item">
-            <svg class="presentation-counter__icon">
-              <use xlink:href='img/sprite.svg#statistics-icon2'></use>
-            </svg>
-            <div class="presentation-counter__count" id="cups">
-              0
-            </div>
-            <div class="presentation-counter__subtitle">
-              Cups of coffee
-            </div>
-          </div>
-          <div class="presentation-counter__item">
-            <svg class="presentation-counter__icon">
-              <use xlink:href='img/sprite.svg#statistics-icon3'></use>
-            </svg>
-            <div class="presentation-counter__count" id="posts">
-              0
-            </div>
-            <div class="presentation-counter__subtitle">
-              Blog posts
-            </div>
-          </div>
-          <div class="presentation-counter__item">
-            <svg class="presentation-counter__icon">
-              <use xlink:href='img/sprite.svg#statistics-icon4'></use>
-            </svg>
-            <div class="presentation-counter__count" id="likes">
-              0
-            </div>
-            <div class="presentation-counter__subtitle">
-              Likes
-            </div>
-          </div>
-          <div class="presentation-counter__item">
-            <svg class="presentation-counter__icon">
-              <use xlink:href='img/sprite.svg#statistics-icon5'></use>
-            </svg>
-            <div class="presentation-counter__count" id="launched">
-              0
-            </div>
-            <div class="presentation-counter__subtitle">
-              We launched
-            </div>
-          </div>
-        </div>
-  </div>
-</section>
-
-			<section class="last-projects">
-  <div class="container">
-    <div class="last-projects__inner">
-      <div class="last-projects__header titles__body">
-        <div class="last-projects__title titles__title">
-          <h3>Recent Posts.</h3>
-        </div>
-        <div class="last-projects__descr titles__descr">
-          <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
-            processus dynamicus, qui sequitur mutationem consuetudium.</p>
-        </div>
-      </div>
-      <div class="last-projects__outher-slider swiper-container">
-        <div class="last-projects__outher-wrapper swiper-wrapper">
-
-          <div class="last-projects__outher-slide swiper-slide">
-            <div class="last-projects__item carts__item ">
-              <div class="last-projects__image carts__image swiper-container">
-                <div class="last-projects__inner-wrapper swiper-wrapper">
-                  <div class="last-projects__slide swiper-slide">
-                    <a href="#"><img src="img/last-posts1.jpg" class="last-projects__img carts__img"></img></a>
-                  </div>
-                  <div class="last-projects__slide swiper-slide">
-                    <a href="#"><img src="img/last-posts2.jpg" class="last-projects__img carts__img"></img></a>
                   </div>
                 </div>
-                <div class="last-projects__pagination swiper-pagination"></div>
               </div>
-              <div class="last-projects__date">
-                <div class="last-projects__day">
-                  30
+              <div class="carousel__pagination swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+        <div class="browsers__footer">
+          <div class="browsers__footer-row">
+            <div class="browsers__footer-title">
+              <h4><span>Waxom</span> Multipurpose WordPress Theme</h4>
+            </div>
+            <div class="browsers__footer-subtitle">
+              Don't Forget to Rate the Template. Thanks so much!
+            </div>
+          </div>
+          <div class="browsers__footer-btn btn">Purchase Now</div>
+        </div>
+      </section>
+
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <div class="potrfolio__inner">
+            <div class="potrfolio__header titles__body">
+              <div class="potrfolio__title titles__title">
+                <h3>Our Latest Projects.</h3>
+              </div>
+              <div class="potrfolio__descr titles__descr">
+                <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+                  processus dynamicus, qui sequitur mutationem consuetudium.</p>
+              </div>
+            </div>
+            <div class="potrfolio__breadcrumbs breadcrumbs">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item breadcrumbs__item_active" id="all">All</li>
+                <li class="breadcrumbs__item" id="web-design">Web Design</li>
+                <li class="breadcrumbs__item" id="mobile-app">Mobile App</li>
+                <li class="breadcrumbs__item" id="illustration">Illustration</li>
+                <li class="breadcrumbs__item" id="photography">Photography</li>
+              </ul>
+            </div>
+            <div class="potrfolio__grid grid-portfolio">
+              <div class="grid-portfolio__inner">
+                <div class="grid-portfolio__item carts__item" data-progect="mobile-app">
+                  <div class="grid-portfolio__image carts__image">
+                    <img src="img/portfolio1.jpg" class="grid-portfolio__img carts__img" alt="project">
+                    <div class="grid-portfolio__icons">
+                      <svg class="grid-portfolio__icon">
+                        <use xlink:href='img/sprite.svg#link'></use>
+                      </svg>
+                      <svg data-src="img/portfolio1@3x.jpg" class="grid-portfolio__icon" id="lupa">
+                        <use xlink:href='img/sprite.svg#lupa'></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="grid-portfolio__bottom carts__bottom">
+                    <div class="grid-portfolio__title carts__title">
+                      <h5>Claritas Etiam Processus</h5>
+                    </div>
+                    <div class="grid-portfolio__subtitle carts__subtitle">
+                      Photography, Nature
+                    </div>
+                  </div>
                 </div>
-                <div class="last-projects__month">
-                  Sep.
+                <div class="grid-portfolio__item carts__item_active" data-progect="photography">
+                  <div class="grid-portfolio__image carts__image">
+                    <img src="img/portfolio2.jpg" class="grid-portfolio__img carts__img" alt="project">
+                    <div class="grid-portfolio__icons">
+                      <svg class="grid-portfolio__icon grid-portfolio__icon_active">
+                        <use xlink:href='img/sprite.svg#link'></use>
+                      </svg>
+                      <svg data-src="img/portfolio2@3x.jpg" class="grid-portfolio__icon" id="lupa">
+                        <use xlink:href='img/sprite.svg#lupa'></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="grid-portfolio__bottom carts__bottom">
+                    <div class="grid-portfolio__title carts__title">
+                      <h5>Quam Nutamus Farum</h5>
+                    </div>
+                    <div class="grid-portfolio__subtitle carts__subtitle">
+                      Graphic Design, Mock-Up
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-portfolio__item carts__item" data-progect="web-design">
+                  <div class="grid-portfolio__image carts__image">
+                    <img src="img/portfolio3.jpg" class="grid-portfolio__img carts__img" alt="project">
+                    <div class="grid-portfolio__icons">
+                      <svg class="grid-portfolio__icon">
+                        <use xlink:href='img/sprite.svg#link'></use>
+                      </svg>
+                      <svg data-src="img/portfolio3@3x.jpg" class="grid-portfolio__icon" id="lupa">
+                        <use xlink:href='img/sprite.svg#lupa'></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="grid-portfolio__bottom carts__bottom">
+                    <div class="grid-portfolio__title carts__title">
+                      <h5>Usus Legentis Videntur</h5>
+                    </div>
+                    <div class="grid-portfolio__subtitle carts__subtitle">
+                      Photography, Holiday
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-portfolio__item carts__item" data-progect="photography">
+                  <div class="grid-portfolio__image carts__image">
+                    <img src="img/portfolio4.jpg" class="grid-portfolio__img carts__img" alt="project">
+                    <div class="grid-portfolio__icons">
+                      <svg class="grid-portfolio__icon">
+                        <use xlink:href='img/sprite.svg#link'></use>
+                      </svg>
+                      <svg data-src="img/portfolio4@3x.jpg" class="grid-portfolio__icon" id="lupa">
+                        <use xlink:href='img/sprite.svg#lupa'></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="grid-portfolio__bottom carts__bottom">
+                    <div class="grid-portfolio__title carts__title">
+                      <h5>Claritas Etiam Processus</h5>
+                    </div>
+                    <div class="grid-portfolio__subtitle carts__subtitle">
+                      Photography, Nature
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-portfolio__item carts__item" data-progect="illustration">
+                  <div class="grid-portfolio__image carts__image">
+                    <img src="img/portfolio5.jpg" class="grid-portfolio__img carts__img" alt="project">
+                    <div class="grid-portfolio__icons">
+                      <svg class="grid-portfolio__icon">
+                        <use xlink:href='img/sprite.svg#link'></use>
+                      </svg>
+                      <svg data-src="img/portfolio5@3x.jpg" class="grid-portfolio__icon" id="lupa">
+                        <use xlink:href='img/sprite.svg#lupa'></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="grid-portfolio__bottom carts__bottom">
+                    <div class="grid-portfolio__title carts__title">
+                      <h5>Quam Nutamus Farum</h5>
+                    </div>
+                    <div class="grid-portfolio__subtitle carts__subtitle">
+                      Graphic Design, Mock-Up
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-portfolio__item carts__item" data-progect="photography">
+                  <div class="grid-portfolio__image carts__image">
+                    <img src="img/portfolio6.jpg" class="grid-portfolio__img carts__img" alt="project">
+                    <div class="grid-portfolio__icons">
+                      <svg class="grid-portfolio__icon">
+                        <use xlink:href='img/sprite.svg#link'></use>
+                      </svg>
+                      <svg data-src="img/portfolio6@3x.jpg" class="grid-portfolio__icon" id="lupa">
+                        <use xlink:href='img/sprite.svg#lupa'></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="grid-portfolio__bottom carts__bottom">
+                    <div class="grid-portfolio__title carts__title">
+                      <h5>Usus Legentis Videntur</h5>
+                    </div>
+                    <div class="grid-portfolio__subtitle carts__subtitle">
+                      Photography, Holiday
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="last-projects__bottom carts__bottom">
-                <div class="last-projects__title carts__title">
-                  <h5>Lorem ipsum dolor sit amet</h5>
+            </div>
+            <div class="potrfolio__button btn">Load More</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="video" id='about'>
+        <div class="video__inner">
+          <video poster="img/video-img.jpg" class="video__outher">
+            <source src="../video/IMG_2852.mp4">
+          </video>
+          <div class="video__play">
+            <svg class="video__btn-play">
+              <use xlink:href='img/sprite.svg#icon-play'></use>
+            </svg>
+          </div>
+          <div class="video__content titles__body">
+            <div class="video__title titles__title">
+              <h3>Waxom Video Presentation</h3>
+            </div>
+            <div class="video__descr titles__descr">
+              <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem
+                consuetudium.</p>
+            </div>
+            <div class="video__timer">03:26</div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="presentation" id="features">
+        <div class="container">
+          <div class="presentation__inner">
+            <div class="presentation__top">
+              <div class="presentation__image _anim-items _anim-no-hide">
+                <img src="img/i-phone.jpg" alt="iphone">
+              </div>
+              <div class="presentation__content titles__body _anim-items _anim-no-hide">
+                <div class="presentation__title titles__title">
+                  <h3>Excellent for Mobile Devices.</h3>
                 </div>
-                <div class="last-projects__descr carts__subtitle">
-                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                <div class="presentation__descr titles__descr">
+                  <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                    ex
+                    ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius
+                    claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
                 </div>
-                <a href="#" class="last-projects__link link">Read More</a>
+                <ul class="presentation__list">
+                  <li class="presentation__item">Nam liber tempor cum soluta nobis eleifend option;</li>
+                  <li class="presentation__item">Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+                  <li class="presentation__item">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+                  <li class="presentation__item">Investigationes demonstraverunt lectores</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="presentation__footer presentation-counter">
+          <div class="presentation-counter__inner">
+            <div class="presentation-counter__item">
+              <svg class="presentation-counter__icon">
+                <use xlink:href='img/sprite.svg#statistics-icon1'></use>
+              </svg>
+              <div class="presentation-counter__count" id="clients">
+                0
+              </div>
+              <div class="presentation-counter__subtitle">
+                Satisfied Clients
+              </div>
+            </div>
+            <div class="presentation-counter__item">
+              <svg class="presentation-counter__icon">
+                <use xlink:href='img/sprite.svg#statistics-icon2'></use>
+              </svg>
+              <div class="presentation-counter__count" id="cups">
+                0
+              </div>
+              <div class="presentation-counter__subtitle">
+                Cups of coffee
+              </div>
+            </div>
+            <div class="presentation-counter__item">
+              <svg class="presentation-counter__icon">
+                <use xlink:href='img/sprite.svg#statistics-icon3'></use>
+              </svg>
+              <div class="presentation-counter__count" id="posts">
+                0
+              </div>
+              <div class="presentation-counter__subtitle">
+                Blog posts
+              </div>
+            </div>
+            <div class="presentation-counter__item">
+              <svg class="presentation-counter__icon">
+                <use xlink:href='img/sprite.svg#statistics-icon4'></use>
+              </svg>
+              <div class="presentation-counter__count" id="likes">
+                0
+              </div>
+              <div class="presentation-counter__subtitle">
+                Likes
+              </div>
+            </div>
+            <div class="presentation-counter__item">
+              <svg class="presentation-counter__icon">
+                <use xlink:href='img/sprite.svg#statistics-icon5'></use>
+              </svg>
+              <div class="presentation-counter__count" id="launched">
+                0
+              </div>
+              <div class="presentation-counter__subtitle">
+                We launched
               </div>
             </div>
           </div>
-          <div class="last-projects__outher-slide swiper-slide">
-            <div class="last-projects__item carts__item carts__item_active">
-              <div class="last-projects__image">
-                <div class="last-projects__image">
-                  <a href="#"><img src="img/last-posts2.jpg" class="last-projects__img carts__img"></img></a>
-                 </div>
-               </div>
-              <div class="last-projects__date last-projects__date_active">
-                <div class="last-projects__day">
-                  30
+        </div>
+      </section>
+
+      <section class="last-projects">
+        <div class="container">
+          <div class="last-projects__inner">
+            <div class="last-projects__header titles__body">
+              <div class="last-projects__title titles__title">
+                <h3>Recent Posts.</h3>
+              </div>
+              <div class="last-projects__descr titles__descr">
+                <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+                  processus dynamicus, qui sequitur mutationem consuetudium.</p>
+              </div>
+            </div>
+            <div class="last-projects__outher-slider swiper-container">
+              <div class="last-projects__outher-wrapper swiper-wrapper">
+
+                <div class="last-projects__outher-slide swiper-slide">
+                  <div class="last-projects__item carts__item ">
+                    <div class="last-projects__image carts__image swiper-container">
+                      <div class="last-projects__inner-wrapper swiper-wrapper">
+                        <div class="last-projects__slide swiper-slide">
+                          <a href="#"><img src="img/last-posts1.jpg" class="last-projects__img carts__img"
+                              alt="post"></a>
+                        </div>
+                        <div class="last-projects__slide swiper-slide">
+                          <a href="#"><img src="img/last-posts2.jpg" class="last-projects__img carts__img"
+                              alt="post"></a>
+                        </div>
+                      </div>
+                      <div class="last-projects__pagination swiper-pagination"></div>
+                    </div>
+                    <div class="last-projects__date">
+                      <div class="last-projects__day">
+                        30
+                      </div>
+                      <div class="last-projects__month">
+                        Sep.
+                      </div>
+                    </div>
+                    <div class="last-projects__bottom carts__bottom">
+                      <div class="last-projects__title carts__title">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                      </div>
+                      <div class="last-projects__descr carts__subtitle">
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                      </div>
+                      <a href="#" class="last-projects__link link">Read More</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="last-projects__month">
-                  Sep.
+                <div class="last-projects__outher-slide swiper-slide">
+                  <div class="last-projects__item carts__item carts__item_active">
+                    <div class="last-projects__image">
+                      <div class="last-projects__image">
+                        <a href="#"><img src="img/last-posts2.jpg" class="last-projects__img carts__img" alt="post"></a>
+                      </div>
+                    </div>
+                    <div class="last-projects__date last-projects__date_active">
+                      <div class="last-projects__day">
+                        30
+                      </div>
+                      <div class="last-projects__month">
+                        Sep.
+                      </div>
+                    </div>
+                    <div class="last-projects__bottom carts__bottom">
+                      <div class="last-projects__title carts__title">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                      </div>
+                      <div class="last-projects__descr carts__subtitle">
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                      </div>
+                      <a href="#" class="last-projects__link link">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="last-projects__outher-slide swiper-slide">
+                  <div class="last-projects__item carts__item ">
+                    <div class="last-projects__image">
+                      <a href="#"><img src="img/last-posts3.jpg" class="last-projects__img carts__img" alt="post"></a>
+                    </div>
+                    <div class="last-projects__date">
+                      <div class="last-projects__day">
+                        30
+                      </div>
+                      <div class="last-projects__month">
+                        Sep.
+                      </div>
+                    </div>
+                    <div class="last-projects__bottom carts__bottom">
+                      <div class="last-projects__title carts__title">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                      </div>
+                      <div class="last-projects__descr carts__subtitle">
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                      </div>
+                      <a href="#" class="last-projects__link link">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="last-projects__outher-slide swiper-slide">
+                  <div class="last-projects__item carts__item ">
+                    <div class="last-projects__image">
+                      <a href="#"><img src="img/browser-left.jpg" class="last-projects__img carts__img"
+                          alt="browser"></a>
+                    </div>
+                    <div class="last-projects__date">
+                      <div class="last-projects__day">
+                        30
+                      </div>
+                      <div class="last-projects__month">
+                        Sep.
+                      </div>
+                    </div>
+                    <div class="last-projects__bottom carts__bottom">
+                      <div class="last-projects__title carts__title">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                      </div>
+                      <div class="last-projects__descr carts__subtitle">
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                      </div>
+                      <a href="#" class="last-projects__link link">Read More</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="last-projects__bottom carts__bottom">
-                <div class="last-projects__title carts__title">
-                  <h5>Lorem ipsum dolor sit amet</h5>
+            </div>
+            <div class="last-projects__outher-controls">
+              <div class="last-projects__button-next swiper-button-next"></div>
+              <div class="last-projects__button-prev swiper-button-prev"></div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="logos" id='contacts' style="background: url('/img/logos-bg.jpg') center / cover no-repeat;">
+        <div class="container">
+          <div class="logos__inner">
+            <div class="logo__item">
+              <a href="#"><img src="img/logs-logo1.png" alt="logo"></a>
+            </div>
+            <div class="logo__item">
+              <a href="#"><img src="img/logs-logo2.png" alt="logo"></a>
+            </div>
+            <div class="logo__item">
+              <a href="#"><img src="img/logs-logo3.png" alt="logo"></a>
+            </div>
+            <div class="logo__item">
+              <a href="#"><img src="img/logs-logo4.png" alt="logo"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="conclusion" id='blog'>
+        <div class="container">
+          <div class="conclusion__inner">
+            <div class="conclusion__column">
+              <div class="conclusion__logo logo">
+                <a href="#"><img src="img/logo.png" class="conclusion__img logo__img" alt="logo"></a>
+              </div>
+              <div class="conclusion__descr">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit
+                  lobortis claritatem.</p>
+              </div>
+              <a href="#" class="conclusion__link link">Read More</a>
+            </div>
+            <div class="conclusion__column">
+              <div class="conclusion__title">
+                <h4>Recent Posts</h4>
+              </div>
+              <div class="conclusion__posts post">
+                <div class="post__item">
+                  <div class="post__date">
+                    September 08, 2015
+                  </div>
+                  <div class="post__text">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                  </div>
                 </div>
-                <div class="last-projects__descr carts__subtitle">
-                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                <div class="post__item post__item_active">
+                  <div class="post__date">
+                    September 08, 2015
+                  </div>
+                  <div class="post__text">
+                    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+                  </div>
                 </div>
-                <a href="#" class="last-projects__link link">Read More</a>
+                <div class="post__item">
+                  <div class="post__date">
+                    September 08, 2015
+                  </div>
+                  <div class="post__text">
+                    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="conclusion__column">
+              <div class="conclusion__title">
+                <h4>Our Twitter</h4>
+              </div>
+              <div class="conclusion__posts post">
+                <div class="post__item">
+                  <div class="post__text">
+                    <p><span>@waxom</span> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                  </div>
+                  <div class="post__time-ago">
+                    3 mins ago
+                  </div>
+                </div>
+                <div class="post__item">
+                  <div class="post__text">
+                    <p>Mirum est <span>#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit
+                      litterarum</p>
+                  </div>
+                  <div class="post__time-ago">
+                    5 hours ago
+                  </div>
+                </div>
+                <div class="post__item">
+                  <div class="post__text">
+                    <p>Soluta nobis option <a href="#"><span>bit.ly/1Hniso7</span></a></p>
+                  </div>
+                  <div class="post__time-ago">
+                    20 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="conclusion__column">
+              <div class="conclusion__title">
+                <h4>Dribbble Widget</h4>
+              </div>
+              <div class="conclusion__galery">
+                <div class="conclusion__image">
+                  <a href="#"><img src="img/galery-1.jpg" alt="galery"></a>
+                </div>
+                <div class="conclusion__image">
+                  <a href="#"><img src="img/galery-2.jpg" alt="galery"></a>
+                </div>
+                <div class="conclusion__image">
+                  <a href=""> <img src="img/galery-3.jpg" alt="galery"></a>
+                </div>
+                <div class="conclusion__image">
+                  <a href="#"> <img src="img/galery-4.jpg" alt="galery"></a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="last-projects__outher-slide swiper-slide">
-            <div class="last-projects__item carts__item ">
-               <div class="last-projects__image">
-                 <a href="#"><img src="img/last-posts3.jpg" class="last-projects__img carts__img"></img></a>
-                </div>
-              <div class="last-projects__date">
-                <div class="last-projects__day">
-                  30
-                </div>
-                <div class="last-projects__month">
-                  Sep.
-                </div>
-              </div>
-              <div class="last-projects__bottom carts__bottom">
-                <div class="last-projects__title carts__title">
-                  <h5>Lorem ipsum dolor sit amet</h5>
-                </div>
-                <div class="last-projects__descr carts__subtitle">
-                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                </div>
-                <a href="#" class="last-projects__link link">Read More</a>
-              </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__row">
+            <div class="footer__item">
+              <a href="#" class="footer__link">Copyright © 2015<span>Waxom</span></a>
             </div>
-          </div>  
-          <div class="last-projects__outher-slide swiper-slide">
-            <div class="last-projects__item carts__item ">
-              <div class="last-projects__image">
-                <a href="#"><img src="img/browser-left.jpg" class="last-projects__img carts__img"></img></a>
-               </div>
-              <div class="last-projects__date">
-                <div class="last-projects__day">
-                  30
-                </div>
-                <div class="last-projects__month">
-                  Sep.
-                </div>
-              </div>
-              <div class="last-projects__bottom carts__bottom">
-                <div class="last-projects__title carts__title">
-                  <h5>Lorem ipsum dolor sit amet</h5>
-                </div>
-                <div class="last-projects__descr carts__subtitle">
-                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                </div>
-                <a href="#" class="last-projects__link link">Read More</a>
-              </div>
+            <div class="footer__item">
+              <a href="#" class="footer__link">Privacy Policy</a>
             </div>
-          </div>  
+            <div class="footer__item footer__link_active">
+              <a href="#" class="footer__link footer__link_active">FAQ</a>
+            </div>
+            <div class="footer__item">
+              <a href="#" class="footer__link">Support</a>
+            </div>
+          </div>
+          <div class="footer__row">
+            <div class="footer__item">
+              <a href="#" class="footer__link">Designed by<span>ThemeFire</span></a>
+            </div>
+            <div class="footer__item">
+              <a href="#" class="footer__link">Only on<span>Envato Market</span></a>
+            </div>
+          </div>
         </div>
       </div>
-     <div class="last-projects__outher-controls">
-        <div class="last-projects__button-next swiper-button-next"></div>
-        <div class="last-projects__button-prev swiper-button-prev"></div>
-     </div>
-     
+    </footer>
+
+  </div>
+  <div class="modal hide">
+    <div class="modal__inner fade">
+      <div class="modal__content">
+        <div data-close class="modal__close">&times;</div>
+        <img class="modal__img" alt="projects">
+      </div>
     </div>
   </div>
-</section>
 
-			<section class="logos" id='contacts' style="background: url('/img/logos-bg.jpg') center / cover no-repeat;">
-    <div class="container">
-        <div class="logos__inner">
-            <div class="logo__item _anim-items">
-                <a href="#"><img src="img/logs-logo1.png" alt="logo"></a>
-            </div>
-            <div class="logo__item _anim-items">
-                <a href="#"><img src="img/logs-logo2.png" alt="logo"></a>
-            </div>
-            <div class="logo__item _anim-items">
-                <a href="#"><img src="img/logs-logo3.png" alt="logo"></a>
-            </div>
-            <div class="logo__item _anim-items">
-                <a href="#"><img src="img/logs-logo4.png" alt="logo"></a>
-            </div>
-        </div>
-    </div>
-</section>
-			<section class="conclusion" id='blog'>
-  <div class="container">
-    <div class="conclusion__inner">
-      <div class="conclusion__column">
-        <div class="conclusion__logo logo">
-          <a href="#"><img src="img/logo.png" class="conclusion__img logo__img" alt="logo"></a>
-        </div>
-        <div class="conclusion__descr">
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-            laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit
-            lobortis claritatem.</p>
-        </div>
-        <a href="#" class="conclusion__link link">Read More</a>
-      </div>
-      <div class="conclusion__column">
-        <div class="conclusion__title">
-          <h4>Recent Posts</h4>
-        </div>
-        <div class="conclusion__posts post">
-          <div class="post__item">
-            <div class="post__date">
-              September 08, 2015
-            </div>
-            <div class="post__text">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-            </div>
-          </div>
-          <div class="post__item post__item_active">
-            <div class="post__date">
-              September 08, 2015
-            </div>
-            <div class="post__text">
-              <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
-            </div>
-          </div>
-          <div class="post__item">
-            <div class="post__date">
-              September 08, 2015
-            </div>
-            <div class="post__text">
-              <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="conclusion__column">
-        <div class="conclusion__title">
-          <h4>Our Twitter</h4>
-        </div>
-        <div class="conclusion__posts post">
-          <div class="post__item">
-            <div class="post__text">
-              <p><span>@waxom</span> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
-            </div>
-            <div class="post__time-ago">
-              3 mins ago
-            </div>
-          </div>
-          <div class="post__item">
-            <div class="post__text">
-              <p>Mirum est <span>#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit
-                litterarum</p>
-            </div>
-            <div class="post__time-ago">
-              5 hours ago
-            </div>
-          </div>
-          <div class="post__item">
-            <div class="post__text">
-              <p>Soluta nobis option <a href="#"><span>bit.ly/1Hniso7</span></a></p>
-            </div>
-            <div class="post__time-ago">
-              20 days ago
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="conclusion__column">
-        <div class="conclusion__title">
-          <h4>Dribbble Widget</h4>
-        </div>
-        <div class="conclusion__galery">
-          <div class="conclusion__image">
-            <a href="#"><img src="img/galery-1.jpg" alt="galery"></a>
-          </div>
-          <div class="conclusion__image">
-            <a href="#"><img src="img/galery-2.jpg" alt="galery"></a>
-          </div>
-          <div class="conclusion__image">
-          <a href="">  <img src="img/galery-3.jpg" alt="galery"></a>
-          </div>
-          <div class="conclusion__image">
-           <a href="#"> <img src="img/galery-4.jpg" alt="galery"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-		</main>
-		<footer class="footer">
-  <div class="container">
-    <div class="footer__inner">
-		<div class="footer__row">
-			<div class="footer__item">
-				<a href="#" class="footer__link">Copyright © 2015<span>Waxom</span></a>
-			</div>
-			<div class="footer__item">
-				<a href="#" class="footer__link">Privacy Policy</a>
-			</div>
-			<div class="footer__item footer__link_active">
-				<a href="#" class="footer__link footer__link_active">FAQ</a>
-			</div>
-			<div class="footer__item">
-				<a href="#" class="footer__link">Support</a>
-			</div>
-		</div>
-		<div class="footer__row">
-			<div class="footer__item">
-				<a href="#" class="footer__link">Designed by<span>ThemeFire</span></a>
-			</div>
-			<div class="footer__item">
-				<a href="#" class="footer__link">Only on<span>Envato Market</span></a>
-			</div>
-		</div>
-    </div>
-  </div>
-</footer>
-
-	</div>
-	<div class="modal hide">
-  <div class="modal__inner fade">  
-    <div class="modal__content">
-      <div data-close class="modal__close">&times;</div>
-      <img class="modal__img" alt="projects">
-    </div>
-  </div>
-</div>
-
-	<script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
